@@ -35,6 +35,8 @@ class NewPost extends Component {
                     <option value="Aimee">Aimee</option>
                     <option value="Max">Max</option>
                     <option value="Greg">Gredge</option>
+                    <option value="Admirer">Admirer</option>
+                    <option value="Anonymous">Anonymous</option>
 
 
                 </select>
