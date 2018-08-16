@@ -18,7 +18,7 @@ class NewPost extends Component {
         };
         axios.post('https://blog-2eb93.firebaseio.com/posts.json', data)
             .then(response => {
-                alert('thank you! it has been sent.');
+                alert('Thank You! It has been sent.');
             });
     }
 
