@@ -1,6 +1,11 @@
 # Firebase Post Blog Simple Blog.
+
+
 Demo:
 https://firebase-post-message.herokuapp.com/
+
+--------------------------------------------------
+
  checkout the console logs for more :)
 --------------------------------------------------
 
