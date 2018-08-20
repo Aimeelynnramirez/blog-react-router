@@ -15,7 +15,7 @@ class Blog extends Component {
                         <ul>
                             <li><Link to="/"
                             style={{
-                            color:'pink',
+                            color:'lightblue',
                             textDecoration:'underline'
 
                             }}
