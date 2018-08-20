@@ -10,15 +10,19 @@ class NewPost extends Component {
         author: 'Aimee'
     }
 
+    componentDidMount () {
+        console.log(this.props);
+    }
+
     postDataHandler = () => {
         const data = {
             title: this.state.title,
             body: this.state.content,
             author: this.state.author
         };
-        axios.post('https://blog-2eb93.firebaseio.com/posts.json', data)
+        axios.post('/posts', data)
             .then(response => {
-                alert('Thank You! It has been sent.');
+                console.log(response);
             });
     }
 
@@ -32,12 +36,10 @@ class NewPost extends Component {
                 <textarea rows="4" value={this.state.content} onChange={(event) => this.setState({content: event.target.value})} />
                 <label>Author</label>
                 <select value={this.state.author} onChange={(event) => this.setState({author: event.target.value})}>
-                    <option value="Aimee">Aimee</option>
                     <option value="Max">Max</option>
-                    <option value="Greg">Gregj</option>
+                    <option value="Aimee">Aimee</option>
                     <option value="Admirer">Admirer</option>
                     <option value="Anonymous">Anonymous</option>
-
 
                 </select>
                 <button onClick={this.postDataHandler}>Add Post</button>
