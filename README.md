@@ -1,8 +1,8 @@
-#  🔥 Firebase Post Blog Simple Blog.
+#  🔥  Blog Simple Blog.
 
 
 Demo:
-https://firebase-post-message.herokuapp.com/
+https://blog-react-router.herokuapp.com/
 
 --------------------------------------------------
 
