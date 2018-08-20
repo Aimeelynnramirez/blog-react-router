@@ -7,7 +7,7 @@ class NewPost extends Component {
     state = {
         title: '',
         content: '',
-        author: 'Aimee'
+        author: 'Max'
     }
 
     componentDidMount () {
@@ -38,9 +38,7 @@ class NewPost extends Component {
                 <select value={this.state.author} onChange={(event) => this.setState({author: event.target.value})}>
                     <option value="Max">Max</option>
                     <option value="Aimee">Aimee</option>
-                    <option value="Admirer">Admirer</option>
-                    <option value="Anonymous">Anonymous</option>
-
+                    
                 </select>
                 <button onClick={this.postDataHandler}>Add Post</button>
             </div>
