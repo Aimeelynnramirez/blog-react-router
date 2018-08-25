@@ -2,6 +2,8 @@
 
 
 Demo:
+http://aimeelynnramirez.github.io/blog-react-router
+or 
 https://blog-react-router.herokuapp.com/
 
 --------------------------------------------------
